@@ -1,0 +1,44 @@
+---
+title: Retrieve Conversation Details
+description: You can retrieve the details of a Conversation object for a voice call using the Conversation API
+products:
+  - conversation
+
+introduction:
+  title: Introduction
+  description: Learn how to Retrieve Conversation Details
+  content: |
+    # Introduction
+
+    You can retrieve the details of a Conversation object for a voice call using the Conversation API.
+
+    While this tutorial looks specifically at retrieving the details of a voice call, there are many other possible use cases with other capabilities, such as a video call or a text chat session. The purpose of this tutorial is to provide insight into the structure of a Conversation, as the Conversation is an important object that underlies much of the Vonage technology. It is a fundamental data structure for communication activities, as all communication takes place through a Conversation.
+
+    The setup you will have in this tutorial is illustrated in the following diagram:
+
+prerequisites:
+  - create-nexmo-account
+  - buy-nexmo-number
+  - install-nexmo-cli
+  - install-nexmo-cli-beta
+  - conversation/create-application
+  - link-nexmo-number
+  - conversation/generate-a-jwt
+  - run-ngrok
+  - conversation/run-webhook-server
+
+tasks:
+  - conversation/retrieve-conversation-details/call-vonage-number
+  - conversation/retrieve-conversation-details/get-conversation-details
+
+conclusion:
+  title: What's Next
+  description: What else can you do with the Conversation Object?
+  content: |
+    ## What's Next
+
+    You now know how to use the Conversation API to obtain the Conversation object for a voice call.
+
+    ## Resources
+    - conversation/overview
+    - conversation/api-reference
