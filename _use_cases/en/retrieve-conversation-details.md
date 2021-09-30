@@ -243,7 +243,7 @@ This API call will give you a response similar to the following:
 This response is explained in more detail in the [Conversation](/conversation/concepts/conversation) topic.
 
 You can now hang up phone 1 (Alice) and phone 2 (Bob) to terminate the call.
-
+ 
 ## Conclusion
 
 You have seen how to use the Conversation API to obtain the Conversation object for a voice call.

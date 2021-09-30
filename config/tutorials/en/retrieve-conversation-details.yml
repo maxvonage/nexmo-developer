@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 title: Retrieve Conversation Details
 description: Retrieve details of a Conversation for a voice call using the Conversation API
 products:
   - conversation
+=======
+
+title: Retrieve Conversation Details
+description: You can retrieve the details of a Conversation object for a voice call using the Conversation API.
+products:
+  - conversation
+>>>>>>> 6dfb416b960aa24de6a5d3ea7876cf18420dee13
