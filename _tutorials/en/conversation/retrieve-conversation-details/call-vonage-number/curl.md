@@ -1,8 +1,13 @@
 ---
+<<<<<<< HEAD
 title: Call the Vonage number
 description: How to Call the Vonage number
 meta_title: Call the Vonage number
 meta_description: How to Call the Vonage number
+=======
+title: Call Vonage Number
+description: Call the Vonage number
+>>>>>>> 6dfb416b960aa24de6a5d3ea7876cf18420dee13
 ---
 
 # Call the Vonage Number
@@ -22,4 +27,8 @@ Now check the logging produced by your webhook server. You should see something 
 ...
 ```
 
+<<<<<<< HEAD
 You are interested only in the Conversation ID which has the form `CON-<uuid>`. Copy the Conversation ID so you can use it later.
+=======
+You are interested only in the Conversation ID which has the form `CON-<uuid>`. Copy the Conversation ID so you can use it later.
+>>>>>>> 6dfb416b960aa24de6a5d3ea7876cf18420dee13
