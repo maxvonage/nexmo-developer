@@ -1,6 +1,6 @@
 ---
 title: Generate a JWT
-description: In this step you learn how to generate a JWT.
+description: In this step you learn how to generate a JWT
 ---
 
 # Generate a JWT

@@ -1,8 +1,8 @@
 ---
 title: Call the Vonage number
 description: How to Call the Vonage number
-meta_title: Call the Vonage number.
-meta_description: How to Call the Vonage number.
+meta_title: Call the Vonage number
+meta_description: How to Call the Vonage number
 ---
 
 # Call the Vonage Number

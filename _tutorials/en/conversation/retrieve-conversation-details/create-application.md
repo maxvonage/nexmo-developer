@@ -1,8 +1,8 @@
 ---
 title: Create a Conversation Application
-description: In this step you learn how to create a Conversation Application.
+description: In this step you learn how to create a Conversation Application
 meta_title: Create a Conversation application for the Vonage APIs
-meta_description: In this step you learn how to create a Conversation Application.
+meta_description: In this step you learn how to create a Conversation Application
 ---
 
 # Create your application
