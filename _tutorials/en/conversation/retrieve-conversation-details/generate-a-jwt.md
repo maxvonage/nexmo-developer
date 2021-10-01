@@ -5,7 +5,7 @@ description: In this step you learn how to generate a JWT.
 
 # Generate a JWT
 
-The Conversation API is authenticated using Jaoin Web Tokens (JWTs).
+The Conversation API is authenticated using Jason Web Tokens (JWTs).
 
 > **NOTE:** Please replace `APP_ID` with your application ID.
 `private.key` is the key associated with your application.

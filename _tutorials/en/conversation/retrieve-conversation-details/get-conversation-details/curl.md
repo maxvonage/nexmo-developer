@@ -1,7 +1,6 @@
 ---
 title: Get Conversation Details
 description: Get the Conversation object
-<<<<<<< HEAD
 meta_title: Get Conversation Details
 meta_description: Get the Conversation object
 ---
@@ -11,15 +10,6 @@ meta_description: Get the Conversation object
 Use the code below to retrieve details of the Conversation object for your current call.
 
 > **NOTE:** You will need to replace `$CONVERSATION_ID` by your ID and `$JWT` with the JWT you created.
-=======
----
-
-# Get the Conversation details
-
-You can retrieve details of the Conversation object for your current call.
-
-> **NOTE:** You will need to replace `$CONVERSATION_ID` by your ID and `$JWT` by the JWT you created.
->>>>>>> 6dfb416b960aa24de6a5d3ea7876cf18420dee13
 
 Use this API call to get your Conversation object:
 
@@ -119,8 +109,4 @@ The API call will give you a response similar to the following:
 
 See [Conversation](/conversation/concepts/conversation) for more information.
 
-<<<<<<< HEAD
 You can now hang up phone 1 (Alice) and phone 2 (Bob) to terminate the call.
-=======
-You can now hang up phone 1 (Alice) and phone 2 (Bob) to terminate the call.
->>>>>>> 6dfb416b960aa24de6a5d3ea7876cf18420dee13

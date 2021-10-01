@@ -1,5 +1,3 @@
-<<<<<<< HEAD
----
 title: Retrieve Conversation Details
 description: You can retrieve the details of a Conversation object for a voice call using the Conversation API
 products:
@@ -7,16 +5,7 @@ products:
 
 introduction:
   title: Introduction
-  description: Learn how to Retrieve Conversation Details
-=======
-title: Retrieve Conversation details for an in-progress voice call (NODE)
-products: conversation
-description: "Retrieve details of a Conversation object for an in-progress voice call"
-
-introduction:
-  title: Introduction
   description: Retrieve Conversation Details
->>>>>>> 6dfb416b960aa24de6a5d3ea7876cf18420dee13
   content: |
     # Introduction
 
@@ -24,17 +13,6 @@ introduction:
 
     While this tutorial looks specifically at retrieving the details of a voice call, there are many other possible use cases with other capabilities, such as a video call or a text chat session. The purpose of this tutorial is to provide insight into the structure of a Conversation, as the Conversation is an important object that underlies much of the Vonage technology. It is a fundamental data structure for communication activities, as all communication takes place through a Conversation.
 
-<<<<<<< HEAD
-    The setup you will have in this tutorial is illustrated in the following diagram:
-
-=======
-    ## Completed project
-    If you would like to follow along without building the app yourself, the completed project is available on [Github](https://github.com/nexmo-community/voice-api-web-socket-audio).
-
-    The setup you will have in this tutorial is illustrated in the following diagram:
-    ![Conversation Image](/images/conversation-api/call-forward-conversation.png)
-  
->>>>>>> 6dfb416b960aa24de6a5d3ea7876cf18420dee13
 prerequisites:
   - create-nexmo-account
   - buy-nexmo-number
@@ -54,7 +32,6 @@ conclusion:
   title: What's Next
   description: What else can you do with the Conversation Object?
   content: |
-<<<<<<< HEAD
     ## What's Next
 
     You now know how to use the Conversation API to obtain the Conversation object for a voice call.
@@ -62,12 +39,3 @@ conclusion:
     ## Resources
     - conversation/overview
     - conversation/api-reference
-=======
-    # What's Next
-
-    You now know how to use the Conversation API to obtain the Conversation object for a voice call.
-
-resources:
-  - conversation/overview
-  - conversation/api-reference
->>>>>>> 6dfb416b960aa24de6a5d3ea7876cf18420dee13
