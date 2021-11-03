@@ -209,8 +209,6 @@ products:
     dropdown: true
   - 
     name: 'NeRu'
-    icon: 'phone'
-    icon_colour: 'purple-dark'
     path: neru
     translate: false
     translation_frequency: 5

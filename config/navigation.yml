@@ -175,5 +175,4 @@ navigation_overrides:
       navigation_weight: 9999
   neru:
     label: 'Dev Preview'
-    svg: 'phone-message'
-    svgColor: 'red'
+    svg: 'cloud-upload'
