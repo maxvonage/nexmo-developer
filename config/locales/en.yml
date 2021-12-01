@@ -66,6 +66,7 @@ en:
     configuration: Configuration
     tools: Tools
     neru: NeRu
+    providers: Providers
 
     administration: Administration
     tasks: Tasks
