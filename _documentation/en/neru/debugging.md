@@ -10,7 +10,7 @@ Debugging a NeRu deployment is possible by running a local Docker image that imi
 
 For this you need:
 
-Docker installed. you can see the step by step install guides for [MacOS](https://docs.docker.com/desktop/mac/install/) and [Windows](https://docs.docker.com/desktop/windows/install/)
+Docker installed. you can see the step by step install guides for [macOS](https://docs.docker.com/desktop/mac/install/) and [Windows](https://docs.docker.com/desktop/windows/install/)
 [VSCode](https://code.visualstudio.com/download) installed
 
 ## Start a local debug session

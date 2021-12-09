@@ -15,8 +15,8 @@ Once the deployment is running you should see the URL in which your application 
 
 https://client-gateway.euw1.dev.nexmo.cloud/neru-858574e1-neru-demo-dev/{route}
 
-The hostname indicates the location of the deployment `/` 
-the first part of the path is the deployment name, comprised of your account_id (API key) `-` then the project name `-` and the environment of the deployment `/` Whatever you will add to the path (to replace {route}) will access different endpoints that you'll set up.
+The host name indicates the location of the deployment `/` 
+the first part of the path is the deployment name, comprised of your account id (API key) `-` then the project name `-` and the environment of the deployment `/` Whatever you will add to the path (to replace {route}) will access different endpoints that you'll set up.
 
 In this sample, the trigger to start is making a phone call so there's no need to call an API endpoint to do anything at this point.
 
