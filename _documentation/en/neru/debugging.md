@@ -15,7 +15,7 @@ Docker installed. you can see the step by step install guides for [macOS](https:
 
 ## Start a local debug session
 
-In your project folder run the debug start command from the cli (you can already use the terminal window in VSCode if that is more convenient for you) - please note that the first time you run this it will set up and install a few more things.
+In your project folder run the debug start command from the CLI (you can already use the terminal window in VSCode if that is more convenient for you) - please note that the first time you run this it will set up and install a few more things.
 
 ```
 neru-cli debug start
