@@ -10,7 +10,7 @@ In your project folder, run
 neru-cli project create
 ```
 
-- Choose project name (You can leave it with the folder name as default by just pressing enter)
+- Choose project name (You can leave it with the folder name as default by pressing enter)
 - Choose runtime environment - `nodejs`
 - Choose the application you created in the first stages of this guide
 - Choose the instance name - `dev`
@@ -43,7 +43,7 @@ instances:
 
 By initializing your NeRu project with the `AkiraQuizVoice` template you now have in your folder the code to run the quiz.
 
-You now just need to make sure to have all the dependencies of the JS code set correctly, run:
+You now need to make sure to have all the dependencies of the JS code set correctly, run:
 
 ```sh
 npm install
