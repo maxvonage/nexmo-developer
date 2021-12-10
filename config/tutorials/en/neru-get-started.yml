@@ -21,4 +21,14 @@ prerequisites:
 tasks:
   - neru/create-vonage-application
   - buy-nexmo-number
+  - link-nexmo-number
   - neru/get-started/create-project
+
+conclusion:
+  title: What's next?
+  description: What else can you do with NeRu?
+  content: |
+
+    # What's next?
+    
+    View the other [NeRu tutorials](/neru/tutorials).
