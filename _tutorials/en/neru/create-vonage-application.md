@@ -22,5 +22,5 @@ cd neru-test-app
 **3.** Create a Vonage application.
 
 ```sh
-neru-cli app create --name "Test app"
+neru app create --name "Test app"
 ```

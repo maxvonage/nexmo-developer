@@ -23,6 +23,8 @@ tasks:
   - buy-nexmo-number
   - link-nexmo-number
   - neru/get-started/create-project
+  - neru/get-started/deploy-project
+  - neru/get-started/view-project
 
 conclusion:
   title: What's next?
@@ -30,5 +32,5 @@ conclusion:
   content: |
 
     # What's next?
-    
-    View the other [NeRu tutorials](/neru/tutorials).
+
+    Try [debugging](/neru/debugging) you project locally or view the other [NeRu tutorials](/neru/tutorials).

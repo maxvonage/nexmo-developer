@@ -5,38 +5,38 @@ description: In this step you learn how to create a NeRu Project.
 
 # Create a NeRu Project
 
-In your project folder, run
+In your project folder, run:
+
 ```sh
-neru-cli project create
+neru init
 ```
 
 - Choose project name (You can leave it with the folder name as default by pressing enter)
-- Choose runtime environment - `nodejs`
 - Choose the application you created in the first stages of this guide
+- Choose runtime environment - `nodejs`
+- Choose a region
 - Choose the instance name - `dev`
 - Choose the template for this sample - `AkiraQuizVoice`
 
 ## Configure your project 
 
-- Open the `neru.yml` file in your favorite editor
-- Update the private-key field with the name of your private key (the private key file should be in the same folder as the `.yml` file so there's no need for a relative path)
-- Update the configuration field, add a contact object with the number you bought, and linked to your application.
+- Open the `neru.yml` file in a text editor
+- Update the configuration object with the number you bought earlier, and linked to your application.
 
-Your file should look similar to this:
+Your file should look similar to this, with `$VONAGE_NUMBER` being your Vonage number:
 
 ```yml
 project:
     name: neru-test-app
-instances:
-    name: eu-dev-test-app
+instance:
+    name: dev
     runtime: nodejs
-    region: euw1
-    application-id: fcd08ece-f3c2-4adf-bf84-5ba8a1c86e0e
-    configuration:
+    region: aws.euw1
+    application-id: d9725658-1dcb-4e99-80b5-5ec1b75f47dc
+    configurations:
         contact:
-            number: "447520616665"
+            number: "$VONAGE_NUMBER"
             type: "phone"
-    secrets: []
 ```
 
 ## Initialize JavaScript dependencies
