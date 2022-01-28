@@ -12,7 +12,7 @@ neru init
 ```
 
 - Choose project name (You can leave it with the folder name as default by pressing enter)
-- Choose the application you created in the first stages of this guide
+- Choose the application you created earlier
 - Choose runtime environment - `nodejs`
 - Choose a region
 - Choose the instance name - `dev`

@@ -9,36 +9,31 @@ Much like the previous step you now need to define a route for the DTMF listener
 
 ```javascript
 router.post("/onDTMF", async (req, res) => {
-  const event = req.body;
-  const digit = event.body.digit;
-  const instance = neru.getInstanceFromRequest(req);
-  const state = instance.getState();
-  const conversationApi = new providers.Conversation(instance);
+    const digit = req.body.event.body.digit;
 
-  const conversationId = await state.get('conversationId');
-  const conversation = conversationApi.getConversation(conversationId);
-
-  conversation.sayText({text: `I received ${digit}`})
-
-
-  res.status(200);
+    const session = neru.getSessionFromRequest(req);
+    const state = session.getState();
+    
+    const voiceApi = new Voice(session);
+    const conversationId = await state.get('conversationId');
+    const conversation = voiceApi.getConversation(conversationId);
+  
+    conversation.sayText({text: `I received ${digit}`}).execute();
+  
+    res.status(200);
 });
-
-startListening();
-
+    
 export { router };
 ```
 
-The above code gets the digit pressed from the incoming request's body and creates a NeRu instance using that request. Like before, the NeRu instance is used to create state and conversations provider. The conversation ID is retried from the state and used to create a conversation object which then uses text-to-speech to relay the digits pressed to the caller.
-
-Outside of the function it called the `startListening` function from earlier and exports the router.
+The above code gets the digit pressed from the incoming request's body, and creates a NeRu session using that request. The NeRu session is used to create state and voice providers. The conversation ID is retried from the state and used to get the existing conversation, which then uses text-to-speech to relay the digits pressed back to the caller.
 
 ## Deploy an instance of your project
 
 By deploying you are creating an instance of your project - a running service that is built from the current version of the code with the current configuration (neru.yml). You can deploy your project by running:
 
 ```sh
-neru-cli deploy
+neru deploy
 ```
 
 Once complete you can now call your Vonage Number and hear the digits you press!
