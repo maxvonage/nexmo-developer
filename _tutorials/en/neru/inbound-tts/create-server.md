@@ -14,13 +14,12 @@ touch index.js
 Then open the new file in your text editor. This file will house the Node server that you will deploy to NeRu. At the top of the file import the dependencies:
 
 ```javascript
-import { neru, providers } from "neru-alpha";
+import { neru, Voice } from "neru-alpha";
 import { v4 as uuid } from "uuid";
-import express from "express";
 ```
 
 This tutorial is using express to run a Node server. Below the imports, create a express router: 
 
 ```javascript
-const router = express.Router();
+const router = neru.Router();
 ```
