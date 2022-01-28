@@ -39,11 +39,11 @@ instance:
             type: "phone"
 ```
 
-## Initialize JavaScript dependencies
+## Install the JavaScript dependencies
 
 By initializing your NeRu project with the `AkiraQuizVoice` template you now have in your folder the code to run the quiz.
 
-You now need to make sure to have all the dependencies of the JS code set correctly, run:
+You now need to make sure to have all the dependencies of the JavaScript code installed correctly, run:
 
 ```sh
 npm install
