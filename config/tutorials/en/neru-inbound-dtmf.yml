@@ -27,6 +27,7 @@ tasks:
   - neru/inbound-tts/listen-inbound-calls
   - neru/inbound-dtmf/inbound-call-route
   - neru/inbound-dtmf/inbound-dtmf-route
+  - neru/inbound-tts/view-dashboard
 
 conclusion:
   title: What's next?

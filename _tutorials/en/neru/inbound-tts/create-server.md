@@ -15,10 +15,9 @@ Then open the new file in your text editor. This file will house the Node server
 
 ```javascript
 import { neru, Voice } from "neru-alpha";
-import { v4 as uuid } from "uuid";
 ```
 
-This tutorial is using express to run a Node server. Below the imports, create a express router: 
+This NeRu is using express to run a Node server. Below the imports, create a express router: 
 
 ```javascript
 const router = neru.Router();

@@ -11,7 +11,7 @@ To listen for inbound calls you will need to use the [Voice Provider](/neru/prov
 const startListening = async () => {
     const session = neru.createSession();
     const voiceApi = new Voice(session);
-    const contact = JSON.parse(process.env['NERU_CONFIGURATIONS'].contact);
+    const contact = JSON.parse(process.env['NERU_CONFIGURATIONS']).contact;
 
     await voiceApi.onInboundCall('onCall', contact).execute();
 }
