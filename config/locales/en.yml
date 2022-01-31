@@ -67,6 +67,7 @@ en:
     tools: Tools
     neru: NeRu
     providers: Providers
+    messages-provider: Messages
 
     administration: Administration
     tasks: Tasks
