@@ -15,13 +15,11 @@ sendText(from: Contact, to: Contact, message: string)
 
 ### Types
 
-This function using the NeRu `Contact` type for the sender and recipient of the message.
+This function uses the NeRu `Contact` type for the sender and recipient of the message.
 
-`Contact`:
-
-* `type`: (String) The type of the contact, e.g. phone.
-* `number`: (String) A phone number in in the [E.164](https://en.wikipedia.org/wiki/E.164) format.
-* `id`: (Optional String) An ID number, for use with Facebook Messenger.
+```partial
+source: _partials/neru/type-contact.md
+```
 
 ## Sending a message
 
