@@ -8,12 +8,12 @@ navigation_weight: 5
 
 The Messages provider's `unsubscribeEvents` function allows you to unsubscribe for incoming events that you have previously set up a listener for using [`listenEvents`](/neru/code-snippets/messages-provider/listen-events).
 
-## Method signature
+## Method Signature
 ```javascript
 unsubscribeEvents(id: string)
 ```
 
-## Unsubscribing for events
+## Unsubscribing for Events
 
 ```tabbed_content
 source: _tutorials_tabbed_content/neru/code-snippets/messages/unsub-events

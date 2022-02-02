@@ -8,7 +8,7 @@ navigation_weight: 2
 
 The Messages provider's `sendImage` function allows you to send an image using the [Messages API](/messages/overview).
 
-## Method signature
+## Method Signature
 ```javascript
 sendImage(from: Contact, to: Contact, imageContent: SendImageContent)
 ```
@@ -27,7 +27,7 @@ source: _partials/neru/type-contact.md
 * `caption`: (String) A caption for the image.
 
 
-## Sending a message
+## Sending a Message
 
 ```tabbed_content
 source: _tutorials_tabbed_content/neru/code-snippets/messages/send-image

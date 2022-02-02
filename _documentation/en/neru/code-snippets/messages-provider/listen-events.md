@@ -8,7 +8,7 @@ navigation_weight: 4
 
 The Messages provider's `listenEvents` function allows you to listen for incoming events using the [Messages API](/messages/overview).
 
-## Method signature
+## Method Signature
 ```javascript
 listenEvents(from: Contact, to: Contact, callback: string)
 ```
@@ -21,7 +21,7 @@ This function uses the NeRu `Contact` type for the sender and recipient of the m
 source: _partials/neru/type-contact.md
 ```
 
-## Listening for events
+## Listening for Events
 
 Using the wild card character, `*`, you can listen for any incoming events to a specified Vonage number. Incoming messages will call the `onEvent` route.
 

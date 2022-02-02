@@ -68,6 +68,8 @@ en:
     neru: NeRu
     providers: Providers
     messages-provider: Messages
+    voice-provider: Voice
+    voice-provider-conversation: Conversation
 
     administration: Administration
     tasks: Tasks

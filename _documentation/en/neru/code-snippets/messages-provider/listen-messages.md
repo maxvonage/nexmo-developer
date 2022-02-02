@@ -8,7 +8,7 @@ navigation_weight: 3
 
 The Messages provider's `listenMessages` function allows you to listen for incoming messages using the [Messages API](/messages/overview).
 
-## Method signature
+## Method Signature
 ```javascript
 listenMessages(from: Contact, to: Contact, callback: string)
 ```
@@ -21,7 +21,7 @@ This function uses the NeRu `Contact` type for the sender and recipient of the m
 source: _partials/neru/type-contact.md
 ```
 
-## Listening for messages
+## Listening for Messages
 
 Using the wild card character, `*`, you can listen for any incoming messages to a specified Vonage number. Incoming messages will call the `onMessage` route.
 

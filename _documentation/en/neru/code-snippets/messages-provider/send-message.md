@@ -8,7 +8,7 @@ navigation_weight: 1
 
 The Messages provider's `sendText` function allows you to send a message using the [Messages API](/messages/overview).
 
-## Method signature
+## Method Signature
 ```javascript
 sendText(from: Contact, to: Contact, message: string)
 ```
@@ -21,7 +21,7 @@ This function uses the NeRu `Contact` type for the sender and recipient of the m
 source: _partials/neru/type-contact.md
 ```
 
-## Sending a message
+## Sending a Message
 
 ```tabbed_content
 source: _tutorials_tabbed_content/neru/code-snippets/messages/send-text
