@@ -15,6 +15,6 @@ To use the Scheduler Provider you need to create an instance of the provider
 ```javascript
 import { neru, providers } from "neru-alpha";
 
-const instance = neru.createInstance();
-const schedulerProvider = new providers.Scheduler(instance);
+const createSession = neru.createSession();
+const schedulerProvider = new providers.Scheduler(createSession);
 ```
