@@ -12,7 +12,9 @@ app.post("/onCall", async (req, res) => {
   
     await conversation.acceptInboundCall(req.body).execute();
     
-    await conversation.sayText({text: "Hi Alice!"}).execute();
+    const body = new SayTextBody();
+    body.text = 'Hi Alice!';
+    await conversation.sayText(body).execute();
 
     res.status(200);
 });
