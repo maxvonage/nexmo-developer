@@ -8,13 +8,8 @@ menu_weight: 1
 session = neru.createSession()
 voice = Voice(session)
 
-vonageNumber = Contact()
-vonageNumber.type_ = 'phone'
-vonageNumber.number = '447000000000'
-
-to = Contact()
-to.type_ = 'phone'
-to.number = '447000000001
+vonageNumber = ChannelPhoneEndpoint('447000000000')
+to = ChannelPhoneEndpoint('447000000001')
 
 ncco = [
             {

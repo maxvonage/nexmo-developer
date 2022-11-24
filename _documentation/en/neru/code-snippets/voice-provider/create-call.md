@@ -10,13 +10,13 @@ The Voice provider's `vapiCreateCall` function allows you to create an outbound 
 
 ## Method Signature
 ```javascript
-vapiCreateCall(from: Contact, to: Contact[], ncco: Record<string, unknown>[])
+vapiCreateCall(from: ChannelPhoneEndpoint, to: ChannelPhoneEndpoint[], ncco: Record<string, any>[])
 ```
 
 ### Types
 
 ```partial
-source: _partials/neru/type-contact.md
+source: _partials/neru/type-channel-phone-endpoint.md
 ```
 
 ## Creating an Outbound Call

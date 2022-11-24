@@ -17,8 +17,10 @@ app.post("/onDTMF", async (req, res) => {
     const voice = new Voice(session);
     const conversationId = await state.get('conversationId');
     const conversation = voice.getConversation(conversationId);
-  
-    conversation.sayText({text: `I received ${digit}`}).execute();
+
+    const body = new SayTextBody();
+    body.text = `I received ${digit}`;
+    await conversation.sayText(body).execute();
   
     res.status(200);
 });

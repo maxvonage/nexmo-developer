@@ -13,7 +13,7 @@ app.post('/call', async (req, res, next) => {
         const session = neru.createSession();
         const voice = new Voice(session);
 
-        const vonageNumber = { number: process.env.VONAGE_NUMBER, type: "phone"};
+        const vonageNumber = { type: 'phone', number: process.env.VONAGE_NUMBER};
         const to = { type: 'phone', number: req.body.number };
     
         const response = await voice
@@ -23,7 +23,7 @@ app.post('/call', async (req, res, next) => {
                 [
                     {
                         action: 'talk',
-                        text: "Hi! This is a call made by the Voice API and NeRu",
+                        text: 'Hi! This is a call made by the Voice API and NeRu',
                     }
                 ]
             )

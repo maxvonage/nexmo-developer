@@ -22,7 +22,10 @@ app.post("/onCall", async (req, res) => {
     await state.set('conversationId', conversation.id);
 
     await conversation.acceptInboundCall(req.body).execute();
-    await conversation.sayText({ text: "Please, use your keyboard to provide your date of birth" }).execute();
+
+    const body = new SayTextBody();
+    body.text = 'Please, use your keyboard to provide your date of birth';
+    await conversation.sayText(body).execute();
   
     await conversation.onDTMF('onDTMF').execute();
   

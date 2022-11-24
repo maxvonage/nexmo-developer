@@ -18,12 +18,11 @@ app.post("/onCall", async (req, res) => {
     const conversation = await voice.createConversation();
   
     await conversation.acceptInboundCall(req.body).execute();
-    await conversation
-      .sayText({
-        text: `<speak>Hello user, your number is: <say-as interpret-as='digits'>${req.body.body.channel.from.number}</say-as></speak>`,
-        ssml: true
-      })
-      .execute();
+
+    const body = new SayTextBody();
+    body.text = `<speak>Hello user, your number is: <say-as interpret-as='digits'>${req.body.body.channel.from.number}</say-as></speak>`;
+    body.ssml = true;
+    await conversation.sayText(body).execute();
   
     res.status(200);
 });
