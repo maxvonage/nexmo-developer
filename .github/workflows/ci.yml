@@ -63,14 +63,6 @@ jobs:
         gem install --no-document bundler
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
-    - name: Check spelling
-      env:
-        POSTGRES_USERNAME: postgres
-        DOCS_BASE_PATH: "."
-        OAS_PATH: "_open_api/api_specs/definitions"
-        FORCE_COLOR: true
-      run: |
-        yarn spellcheck
     - name: Check prose issues
       env:
         POSTGRES_USERNAME: postgres
